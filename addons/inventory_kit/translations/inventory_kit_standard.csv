@@ -1,0 +1,249 @@
+keys,en
+Nothing can use this item.,Nothing can use this item.
+This item cannot be used right now.,This item cannot be used right now.
+Too heavy.,Too heavy.
+%s set,%s set
+%s %s,%s %s
+Slot: %s,Slot: %s
+%s: %s,%s: %s
+Compared with %s,Compared with %s
+Nothing worn in this slot,Nothing worn in this slot
+Weight %s,Weight %s
+%s (%d/%d),%s (%d/%d)
++%d %s,+%d %s
+Accessory,Accessory
+Ammo,Ammo
+Amulet,Amulet
+Armor,Armor
+Back,Back
+Body,Body
+Common,Common
+Consumable,Consumable
+Currency,Currency
+Damage,Damage
+Durability,Durability
+Epic,Epic
+Feet,Feet
+Fire Resist,Fire Resist
+Gem,Gem
+Hands,Hands
+Head,Head
+Heal,Heal
+Legendary,Legendary
+Mana,Mana
+Material,Material
+Offhand,Offhand
+Quest,Quest
+Rare,Rare
+Resource,Resource
+Ring,Ring
+Stamina,Stamina
+Tier,Tier
+Tool,Tool
+Uncommon,Uncommon
+Value,Value
+Waist,Waist
+Weapon,Weapon
+Mage set,Mage set
+Bronze set,Bronze set
+Iron set,Iron set
+Steel set,Steel set
+Royal Gold set,Royal Gold set
+Mithril set,Mithril set
+Adamantite set,Adamantite set
+Dragonscale set,Dragonscale set
+Iron Ore,Iron Ore
+Rock streaked with iron. Smelt it into ingots.,Rock streaked with iron. Smelt it into ingots.
+Iron Ingot,Iron Ingot
+A bar of plain iron.,A bar of plain iron.
+Leather,Leather
+Tanned hide for armor and bags.,Tanned hide for armor and bags.
+Cloth,Cloth
+A roll of woven cloth.,A roll of woven cloth.
+Herbs,Herbs
+Fragrant healing herbs.,Fragrant healing herbs.
+Mana Crystal,Mana Crystal
+A glowing crystal humming with magic.,A glowing crystal humming with magic.
+Stamina Potion,Stamina Potion
+Restores 40 stamina.,Restores 40 stamina.
+Antidote,Antidote
+Cures poison.,Cures poison.
+Bread,Bread
+A fresh loaf. Restores 15 health.,A fresh loaf. Restores 15 health.
+Cheese,Cheese
+A wedge of aged cheese. Restores 12 health.,A wedge of aged cheese. Restores 12 health.
+Roast Meat,Roast Meat
+Hearty and filling. Restores 30 health.,Hearty and filling. Restores 30 health.
+Woodcutter Axe,Woodcutter Axe
+Chops trees and enemies alike.,Chops trees and enemies alike.
+Longbow,Longbow
+Needs arrows.,Needs arrows.
+Curved Dagger,Curved Dagger
+Quick and quiet.,Quick and quiet.
+Wizard Staff,Wizard Staff
+Channels spells.,Channels spells.
+Spiked Mace,Spiked Mace
+Crushes armor.,Crushes armor.
+Spear,Spear
+Long reach.,Long reach.
+Round Shield,Round Shield
+Wood with a metal rim.,Wood with a metal rim.
+Leather Armor,Leather Armor
+Light body armor.,Light body armor.
+Leather Gloves,Leather Gloves
+Protect your hands.,Protect your hands.
+Leather Boots,Leather Boots
+Sturdy boots.,Sturdy boots.
+Hooded Cloak,Hooded Cloak
+Keeps the rain off.,Keeps the rain off.
+Leather Belt,Leather Belt
+Holds potions and pouches.,Holds potions and pouches.
+Gold Ring,Gold Ring
+A ring set with a small gem.,A ring set with a small gem.
+Silver Amulet,Silver Amulet
+Wards off bad luck.,Wards off bad luck.
+Old Key,Old Key
+"Opens something, somewhere.","Opens something, somewhere."
+Treasure Map,Treasure Map
+X marks the spot.,X marks the spot.
+Sealed Scroll,Sealed Scroll
+A message sealed with wax.,A message sealed with wax.
+Sapphire,Sapphire
+A cut blue gem.,A cut blue gem.
+Torch,Torch
+Lights the way.,Lights the way.
+Oak Log,Oak Log
+Tier 1 wood.,Tier 1 wood.
+Pine Log,Pine Log
+Tier 2 wood.,Tier 2 wood.
+Birch Log,Birch Log
+Tier 3 wood.,Tier 3 wood.
+Ebony Log,Ebony Log
+Tier 4 wood.,Tier 4 wood.
+Ancient Log,Ancient Log
+Tier 5 wood.,Tier 5 wood.
+Oak Planks,Oak Planks
+Planks cut from oak wood.,Planks cut from oak wood.
+Pine Planks,Pine Planks
+Planks cut from pine wood.,Planks cut from pine wood.
+Birch Planks,Birch Planks
+Planks cut from birch wood.,Planks cut from birch wood.
+Ebony Planks,Ebony Planks
+Planks cut from ebony wood.,Planks cut from ebony wood.
+Ancient Planks,Ancient Planks
+Planks cut from ancient wood.,Planks cut from ancient wood.
+Granite,Granite
+Hard speckled stone.,Hard speckled stone.
+Marble,Marble
+Polished white stone.,Polished white stone.
+Obsidian,Obsidian
+Glass-sharp volcanic stone.,Glass-sharp volcanic stone.
+Clay,Clay
+"Shape it, fire it.","Shape it, fire it."
+Sand,Sand
+Melts into glass.,Melts into glass.
+Coal,Coal
+Fuel for furnaces.,Fuel for furnaces.
+Copper Ore,Copper Ore
+Rock veined with copper.,Rock veined with copper.
+Tin Ore,Tin Ore
+Rock veined with tin.,Rock veined with tin.
+Silver Ore,Silver Ore
+Rock veined with silver.,Rock veined with silver.
+Gold Ore,Gold Ore
+Rock veined with gold.,Rock veined with gold.
+Mithril Ore,Mithril Ore
+Rock veined with mithril.,Rock veined with mithril.
+Adamantite Ore,Adamantite Ore
+Rock veined with adamantite.,Rock veined with adamantite.
+Copper Ingot,Copper Ingot
+A bar of copper.,A bar of copper.
+Tin Ingot,Tin Ingot
+A bar of tin.,A bar of tin.
+Bronze Ingot,Bronze Ingot
+A bar of bronze.,A bar of bronze.
+Steel Ingot,Steel Ingot
+A bar of steel.,A bar of steel.
+Silver Ingot,Silver Ingot
+A bar of silver.,A bar of silver.
+Gold Ingot,Gold Ingot
+A bar of gold.,A bar of gold.
+Mithril Ingot,Mithril Ingot
+A bar of mithril.,A bar of mithril.
+Adamantite Ingot,Adamantite Ingot
+A bar of adamantite.,A bar of adamantite.
+Iron Nugget,Iron Nugget
+A small lump of iron.,A small lump of iron.
+Gold Nugget,Gold Nugget
+A small lump of gold.,A small lump of gold.
+Plant Fiber,Plant Fiber
+Twist it into rope.,Twist it into rope.
+Linen Thread,Linen Thread
+For sewing and bowstrings.,For sewing and bowstrings.
+Wool,Wool
+Soft and warm.,Soft and warm.
+Silk,Silk
+Fine and rare cloth.,Fine and rare cloth.
+Rawhide,Rawhide
+Untreated animal skin.,Untreated animal skin.
+Hardened Leather,Hardened Leather
+Boiled and riveted leather.,Boiled and riveted leather.
+Scaled Hide,Scaled Hide
+Tough reptile scales.,Tough reptile scales.
+Bone,Bone
+Useful for tools and charms.,Useful for tools and charms.
+Feather,Feather
+Fletching for arrows.,Fletching for arrows.
+Resin,Resin
+Sticky amber sap.,Sticky amber sap.
+Rough Amethyst,Rough Amethyst
+An uncut purple crystal.,An uncut purple crystal.
+Amethyst,Amethyst
+A cut purple gem.,A cut purple gem.
+Emerald,Emerald
+A cut green gem.,A cut green gem.
+Topaz,Topaz
+A cut yellow gem.,A cut yellow gem.
+Diamond,Diamond
+Hardest and brightest of gems.,Hardest and brightest of gems.
+Magic Essence,Magic Essence
+Raw magic trapped in glass.,Raw magic trapped in glass.
+Mage Hood,Mage Hood
+Part of the Mage set (tier 1).,Part of the Mage set (tier 1).
+Mage Robe,Mage Robe
+Mage Gloves,Mage Gloves
+Mage Shoes,Mage Shoes
+Bronze Helmet,Bronze Helmet
+Part of the Bronze set (tier 2).,Part of the Bronze set (tier 2).
+Bronze Chestplate,Bronze Chestplate
+Bronze Gauntlets,Bronze Gauntlets
+Bronze Boots,Bronze Boots
+Part of the Iron set (tier 3).,Part of the Iron set (tier 3).
+Iron Chestplate,Iron Chestplate
+Iron Gauntlets,Iron Gauntlets
+Iron Boots,Iron Boots
+Steel Helmet,Steel Helmet
+Part of the Steel set (tier 4).,Part of the Steel set (tier 4).
+Steel Chestplate,Steel Chestplate
+Steel Gauntlets,Steel Gauntlets
+Steel Boots,Steel Boots
+Royal Gold Helmet,Royal Gold Helmet
+Part of the Royal Gold set (tier 5).,Part of the Royal Gold set (tier 5).
+Royal Gold Chestplate,Royal Gold Chestplate
+Royal Gold Gauntlets,Royal Gold Gauntlets
+Royal Gold Boots,Royal Gold Boots
+Mithril Helmet,Mithril Helmet
+Part of the Mithril set (tier 6).,Part of the Mithril set (tier 6).
+Mithril Chestplate,Mithril Chestplate
+Mithril Gauntlets,Mithril Gauntlets
+Mithril Boots,Mithril Boots
+Adamantite Helmet,Adamantite Helmet
+Part of the Adamantite set (tier 7).,Part of the Adamantite set (tier 7).
+Adamantite Chestplate,Adamantite Chestplate
+Adamantite Gauntlets,Adamantite Gauntlets
+Adamantite Boots,Adamantite Boots
+Dragonscale Helmet,Dragonscale Helmet
+Part of the Dragonscale set (tier 8).,Part of the Dragonscale set (tier 8).
+Dragonscale Chestplate,Dragonscale Chestplate
+Dragonscale Gauntlets,Dragonscale Gauntlets
+Dragonscale Boots,Dragonscale Boots

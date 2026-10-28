@@ -1,0 +1,14 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.glb binary
+*.bin binary
+*.translation binary
+
+# Only the addons/ folder goes into the Asset Library download.
+# The demo, the tests, the icon and the README stay in the repository.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore

@@ -1,0 +1,36 @@
+keys,en
+That did not work.,That did not work.
+Unknown item.,Unknown item.
+There is nothing there.,There is nothing there.
+That slot is taken.,That slot is taken.
+That slot is full.,That slot is full.
+That item cannot go there.,That item cannot go there.
+Not enough room.,Not enough room.
+Not enough items.,Not enough items.
+These items do not stack together.,These items do not stack together.
+This stack cannot be split.,This stack cannot be split.
+The inventory changed. Try again.,The inventory changed. Try again.
+This item cannot be used.,This item cannot be used.
+This item cannot be turned.,This item cannot be turned.
+It does not fit there.,It does not fit there.
+Unknown item (%s),Unknown item (%s)
+Wood Log,Wood Log
+A sturdy log. The most basic building material.,A sturdy log. The most basic building material.
+Stone,Stone
+"A rough grey stone, good for tools and walls.","A rough grey stone, good for tools and walls."
+Health Potion,Health Potion
+Restores 50 health.,Restores 50 health.
+Mana Potion,Mana Potion
+Restores 30 mana.,Restores 30 mana.
+Apple,Apple
+Crisp and sweet. Restores 8 health.,Crisp and sweet. Restores 8 health.
+Longsword,Longsword
+A balanced steel blade.,A balanced steel blade.
+Iron Helmet,Iron Helmet
+Basic head protection.,Basic head protection.
+Gold Coins,Gold Coins
+The universal language.,The universal language.
+Ruby,Ruby
+A cut red gem.,A cut red gem.
+Arrows,Arrows
+Ammunition for bows.,Ammunition for bows.

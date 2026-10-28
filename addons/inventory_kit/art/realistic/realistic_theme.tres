@@ -1,0 +1,103 @@
+[gd_resource type="Theme" format=3]
+
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/button_disabled.png" id="1_ex5o8"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/button_hover.png" id="2_onfyi"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/button_normal.png" id="3_qlxrd"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/button_pressed.png" id="4_did0c"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/panel_inner.png" id="5_4x1rd"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/panel_window.png" id="6_jawov"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/realistic/ui/tooltip_panel.png" id="7_hii2j"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_yay2d"]
+content_margin_left = 18.0
+content_margin_top = 18.0
+content_margin_right = 18.0
+content_margin_bottom = 18.0
+texture = ExtResource("1_ex5o8")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ew265"]
+content_margin_left = 18.0
+content_margin_top = 18.0
+content_margin_right = 18.0
+content_margin_bottom = 18.0
+texture = ExtResource("2_onfyi")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_e2phx"]
+content_margin_left = 18.0
+content_margin_top = 18.0
+content_margin_right = 18.0
+content_margin_bottom = 18.0
+texture = ExtResource("3_qlxrd")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o7jne"]
+content_margin_left = 18.0
+content_margin_top = 18.0
+content_margin_right = 18.0
+content_margin_bottom = 18.0
+texture = ExtResource("4_did0c")
+texture_margin_left = 14.0
+texture_margin_top = 14.0
+texture_margin_right = 14.0
+texture_margin_bottom = 14.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_h2upj"]
+content_margin_left = 29.0
+content_margin_top = 29.0
+content_margin_right = 29.0
+content_margin_bottom = 29.0
+texture = ExtResource("5_4x1rd")
+texture_margin_left = 23.0
+texture_margin_top = 23.0
+texture_margin_right = 23.0
+texture_margin_bottom = 23.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_47crv"]
+content_margin_left = 34.0
+content_margin_top = 34.0
+content_margin_right = 34.0
+content_margin_bottom = 34.0
+texture = ExtResource("6_jawov")
+texture_margin_left = 28.0
+texture_margin_top = 28.0
+texture_margin_right = 28.0
+texture_margin_bottom = 28.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jqw1f"]
+content_margin_left = 24.0
+content_margin_top = 24.0
+content_margin_right = 24.0
+content_margin_bottom = 24.0
+texture = ExtResource("7_hii2j")
+texture_margin_left = 18.0
+texture_margin_top = 18.0
+texture_margin_right = 18.0
+texture_margin_bottom = 18.0
+
+[resource]
+Button/colors/font_color = Color(0.84705883, 0.83137256, 0.8, 1)
+Button/colors/font_disabled_color = Color(0.84705883, 0.83137256, 0.8, 0.4)
+Button/colors/font_focus_color = Color(0.84705883, 0.83137256, 0.8, 1)
+Button/colors/font_hover_color = Color(0.84705883, 0.83137256, 0.8, 1)
+Button/colors/font_pressed_color = Color(0.84705883, 0.83137256, 0.8, 1)
+Button/styles/disabled = SubResource("StyleBoxTexture_yay2d")
+Button/styles/focus = SubResource("StyleBoxTexture_ew265")
+Button/styles/hover = SubResource("StyleBoxTexture_ew265")
+Button/styles/normal = SubResource("StyleBoxTexture_e2phx")
+Button/styles/pressed = SubResource("StyleBoxTexture_o7jne")
+Label/colors/font_color = Color(0.84705883, 0.83137256, 0.8, 1)
+Panel/styles/panel = SubResource("StyleBoxTexture_h2upj")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_47crv")
+TooltipLabel/colors/font_color = Color(0.84705883, 0.83137256, 0.8, 1)
+TooltipPanel/styles/panel = SubResource("StyleBoxTexture_jqw1f")

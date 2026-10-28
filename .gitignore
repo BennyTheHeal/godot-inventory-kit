@@ -1,0 +1,11 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export output and temporary files
+/build/
+*.tmp
+export_presets.cfg
+
+# Godot import file of the Asset Library icon (the icon is not part of the addon)
+/icon.png.import

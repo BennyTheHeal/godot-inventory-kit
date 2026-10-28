@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="IKSkin" format=3]
+
+[ext_resource type="Script" path="res://addons/inventory_kit/ui/skin.gd" id="1_i0svt"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/cartoon/ui/slot_focus.png" id="2_ct3hx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/cartoon/ui/slot_hover.png" id="3_12wgu"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/cartoon/ui/slot_marked.png" id="4_ykfo1"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/cartoon/ui/slot_normal.png" id="5_vs1no"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/cartoon/ui/slot_rejected.png" id="6_3lira"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xjksg"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("2_ct3hx")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_q7ds6"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("3_12wgu")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0s2sx"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("4_ykfo1")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fshpi"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("5_vs1no")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_31ww1"]
+content_margin_left = 6.0
+content_margin_top = 6.0
+content_margin_right = 6.0
+content_margin_bottom = 6.0
+texture = ExtResource("6_3lira")
+texture_margin_left = 24.0
+texture_margin_top = 24.0
+texture_margin_right = 24.0
+texture_margin_bottom = 24.0
+
+[resource]
+script = ExtResource("1_i0svt")
+icon_margin = 7
+slot_normal = SubResource("StyleBoxTexture_fshpi")
+slot_hover = SubResource("StyleBoxTexture_q7ds6")
+slot_rejected = SubResource("StyleBoxTexture_31ww1")
+slot_focus = SubResource("StyleBoxTexture_xjksg")
+slot_marked = SubResource("StyleBoxTexture_0s2sx")

@@ -1,0 +1,2251 @@
+[gd_resource type="Resource" script_class="IKItemDatabase" format=3]
+
+[ext_resource type="Script" path="res://addons/inventory_kit/core/item_definition.gd" id="1_savkw"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/wood_log.png" id="2_7ynyb"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/stone.png" id="3_mkmik"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_ore.png" id="4_mg3x7"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_ingot.png" id="5_mdcx4"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/leather.png" id="6_5b7n0"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloth.png" id="7_8l8g1"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/herb.png" id="8_qasqg"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/crystal.png" id="9_tkper"]
+[ext_resource type="Script" path="res://addons/inventory_kit/pro/items/item_effect.gd" id="10_qexr2"]
+[ext_resource type="Script" path="res://addons/inventory_kit/pro/items/call_method_effect.gd" id="11_shh8k"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/health_potion.png" id="12_ih0gf"]
+[ext_resource type="Script" path="res://addons/inventory_kit/pro/items/usable_item.gd" id="13_miqo8"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mana_potion.png" id="14_063nt"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/stamina_potion.png" id="15_6ala7"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/antidote.png" id="16_8te8a"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bread.png" id="17_ugd4e"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/apple.png" id="18_s6lgr"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cheese.png" id="19_3s85s"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/roast_meat.png" id="20_evqn8"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/sword.png" id="21_bnp1n"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/axe.png" id="22_s2u53"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bow.png" id="23_5q7ev"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/dagger.png" id="24_dh6xe"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/staff.png" id="25_snn7x"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mace.png" id="26_ubst2"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/spear.png" id="27_y7rcx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/shield.png" id="28_tgpd4"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/helmet.png" id="29_tfmm4"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/chest_armor.png" id="30_bqyu0"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gloves.png" id="31_sw0pm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/boots.png" id="32_ke0qc"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloak.png" id="33_3bd1d"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/belt.png" id="34_a7hyq"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ring.png" id="35_0j7q5"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/amulet.png" id="36_xbsn4"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/key.png" id="37_jgau2"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_coins.png" id="38_61uqy"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/map.png" id="39_wq3ua"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/scroll.png" id="40_bhwid"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ruby.png" id="41_ru7d3"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/sapphire.png" id="42_mbdrf"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/arrows.png" id="43_4ln5n"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/torch.png" id="44_ge01u"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/oak_log.png" id="45_xtbui"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/pine_log.png" id="46_4cuw0"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/birch_log.png" id="47_6ry76"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ebony_log.png" id="48_t7lll"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ancient_log.png" id="49_355rf"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/oak_planks.png" id="50_77lba"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/pine_planks.png" id="51_g7m41"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/birch_planks.png" id="52_apju2"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ebony_planks.png" id="53_6opgf"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/ancient_planks.png" id="54_tqpqo"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/granite.png" id="55_1fktr"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/marble.png" id="56_y2ucn"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/obsidian.png" id="57_7ukel"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/clay.png" id="58_wm21w"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/sand.png" id="59_x3h3s"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/coal.png" id="60_1gnnx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/copper_ore.png" id="61_2h3db"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/tin_ore.png" id="62_6wcsd"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/silver_ore.png" id="63_j0isr"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_ore.png" id="64_1y7pb"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_ore.png" id="65_vdw1i"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_ore.png" id="66_dg24s"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/copper_ingot.png" id="67_jt8it"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/tin_ingot.png" id="68_gcyfs"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bronze_ingot.png" id="69_coeq1"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/steel_ingot.png" id="70_0iabq"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/silver_ingot.png" id="71_n4158"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_ingot.png" id="72_r6r5x"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_ingot.png" id="73_s1kxp"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_ingot.png" id="74_65ltx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_nugget.png" id="75_xkpct"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_nugget.png" id="76_321l5"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/plant_fiber.png" id="77_wl1nu"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/linen_thread.png" id="78_knn0n"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/wool.png" id="79_f7wak"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/silk.png" id="80_3v7hf"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/rawhide.png" id="81_ba3lh"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/hardened_leather.png" id="82_twq3r"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/scaled_hide.png" id="83_jmwth"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bone.png" id="84_o8m03"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/feather.png" id="85_4jfnm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/resin.png" id="86_jfq13"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/rough_amethyst.png" id="87_7qkvj"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/amethyst.png" id="88_ce6q5"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/emerald.png" id="89_75vkf"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/topaz.png" id="90_mlss5"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/diamond.png" id="91_7ubul"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/magic_essence.png" id="92_e5wsw"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloth_helmet.png" id="93_mu72a"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloth_chest.png" id="94_fy8eb"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloth_gloves.png" id="95_8dqpk"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/cloth_boots.png" id="96_568gp"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bronze_helmet.png" id="97_mcvlm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bronze_chest.png" id="98_oee05"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bronze_gloves.png" id="99_gt08k"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/bronze_boots.png" id="100_equoi"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_helmet.png" id="101_4vddt"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_chest.png" id="102_hrjnk"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_gloves.png" id="103_tuh0t"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/iron_boots.png" id="104_ubspb"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/steel_helmet.png" id="105_304k2"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/steel_chest.png" id="106_82vqm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/steel_gloves.png" id="107_y3mnx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/steel_boots.png" id="108_reao7"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_helmet.png" id="109_wjfub"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_chest.png" id="110_2ob0w"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_gloves.png" id="111_0yq5n"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/gold_boots.png" id="112_5qs1p"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_helmet.png" id="113_c81df"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_chest.png" id="114_mmvxi"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_gloves.png" id="115_qhw3w"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/mithril_boots.png" id="116_3o1rb"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_helmet.png" id="117_5stn4"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_chest.png" id="118_bkovu"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_gloves.png" id="119_0fd4q"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/adamantite_boots.png" id="120_pcwtu"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/dragon_helmet.png" id="121_8a8mj"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/dragon_chest.png" id="122_anpb5"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/dragon_gloves.png" id="123_hsobm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/flat/icons/dragon_boots.png" id="124_4sk7g"]
+[ext_resource type="Script" path="res://addons/inventory_kit/core/item_database.gd" id="125_cbakq"]
+
+[sub_resource type="Resource" id="Resource_lpk4f"]
+script = ExtResource("1_savkw")
+id = &"wood_log"
+display_name = "Wood Log"
+description = "A sturdy log. The most basic building material."
+icon = ExtResource("2_7ynyb")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"wood"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_51a0j"]
+script = ExtResource("1_savkw")
+id = &"stone"
+display_name = "Stone"
+description = "A rough grey stone, good for tools and walls."
+icon = ExtResource("3_mkmik")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"stone"])
+weight = 3.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_kanet"]
+script = ExtResource("1_savkw")
+id = &"iron_ore"
+display_name = "Iron Ore"
+description = "Rock streaked with iron. Smelt it into ingots."
+icon = ExtResource("4_mg3x7")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_2asvj"]
+script = ExtResource("1_savkw")
+id = &"iron_ingot"
+display_name = "Iron Ingot"
+description = "A bar of plain iron."
+icon = ExtResource("5_mdcx4")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_vg3bj"]
+script = ExtResource("1_savkw")
+id = &"leather"
+display_name = "Leather"
+description = "Tanned hide for armor and bags."
+icon = ExtResource("6_5b7n0")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"leather"])
+weight = 1.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_mjy2h"]
+script = ExtResource("1_savkw")
+id = &"cloth"
+display_name = "Cloth"
+description = "A roll of woven cloth."
+icon = ExtResource("7_8l8g1")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"fabric"])
+weight = 0.5
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_fkjyp"]
+script = ExtResource("1_savkw")
+id = &"herb"
+display_name = "Herbs"
+description = "Fragrant healing herbs."
+icon = ExtResource("8_qasqg")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"herb", &"alchemy"])
+weight = 0.1
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_vdqww"]
+script = ExtResource("1_savkw")
+id = &"crystal"
+display_name = "Mana Crystal"
+description = "A glowing crystal humming with magic."
+icon = ExtResource("9_tkper")
+max_stack = 20
+category = &"material"
+tags = Array[StringName]([&"magic"])
+weight = 0.5
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_dcstg"]
+script = ExtResource("11_shh8k")
+method = &"heal"
+arguments = [50]
+check_method = &"can_heal"
+
+[sub_resource type="Resource" id="Resource_6lh51"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_dcstg")])
+id = &"health_potion"
+display_name = "Health Potion"
+description = "Restores 50 health."
+icon = ExtResource("12_ih0gf")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.5
+properties = {
+"heal": 50,
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_hdl3g"]
+script = ExtResource("11_shh8k")
+method = &"restore_mana"
+arguments = [30]
+check_method = &"can_restore_mana"
+
+[sub_resource type="Resource" id="Resource_ysjry"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_hdl3g")])
+id = &"mana_potion"
+display_name = "Mana Potion"
+description = "Restores 30 mana."
+icon = ExtResource("14_063nt")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.5
+properties = {
+"mana": 30,
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_2l4af"]
+script = ExtResource("11_shh8k")
+method = &"restore_stamina"
+arguments = [40]
+check_method = &"can_restore_stamina"
+
+[sub_resource type="Resource" id="Resource_k2wmg"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_2l4af")])
+id = &"stamina_potion"
+display_name = "Stamina Potion"
+description = "Restores 40 stamina."
+icon = ExtResource("15_6ala7")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.5
+properties = {
+"rarity": "common",
+"stamina": 40,
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_g6g1r"]
+script = ExtResource("11_shh8k")
+method = &"cure_poison"
+arguments = [1]
+check_method = &"is_poisoned"
+
+[sub_resource type="Resource" id="Resource_plpn1"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_g6g1r")])
+id = &"antidote"
+display_name = "Antidote"
+description = "Cures poison."
+icon = ExtResource("16_8te8a")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.2
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_h0r4a"]
+script = ExtResource("11_shh8k")
+method = &"heal"
+arguments = [15]
+check_method = &"can_heal"
+
+[sub_resource type="Resource" id="Resource_p8emo"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_h0r4a")])
+id = &"bread"
+display_name = "Bread"
+description = "A fresh loaf. Restores 15 health."
+icon = ExtResource("17_ugd4e")
+max_stack = 20
+category = &"consumable"
+tags = Array[StringName]([&"food"])
+weight = 0.3
+properties = {
+"heal": 15,
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_xst18"]
+script = ExtResource("11_shh8k")
+method = &"heal"
+arguments = [8]
+check_method = &"can_heal"
+
+[sub_resource type="Resource" id="Resource_7kgn7"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_xst18")])
+id = &"apple"
+display_name = "Apple"
+description = "Crisp and sweet. Restores 8 health."
+icon = ExtResource("18_s6lgr")
+max_stack = 20
+category = &"consumable"
+tags = Array[StringName]([&"food"])
+weight = 0.2
+properties = {
+"heal": 8,
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_tvcqh"]
+script = ExtResource("11_shh8k")
+method = &"heal"
+arguments = [12]
+check_method = &"can_heal"
+
+[sub_resource type="Resource" id="Resource_1i4ge"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_tvcqh")])
+id = &"cheese"
+display_name = "Cheese"
+description = "A wedge of aged cheese. Restores 12 health."
+icon = ExtResource("19_3s85s")
+max_stack = 20
+category = &"consumable"
+tags = Array[StringName]([&"food"])
+weight = 0.3
+properties = {
+"heal": 12,
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_fueok"]
+script = ExtResource("11_shh8k")
+method = &"heal"
+arguments = [30]
+check_method = &"can_heal"
+
+[sub_resource type="Resource" id="Resource_b1yji"]
+script = ExtResource("13_miqo8")
+effects = Array[ExtResource("10_qexr2")]([SubResource("Resource_fueok")])
+id = &"roast_meat"
+display_name = "Roast Meat"
+description = "Hearty and filling. Restores 30 health."
+icon = ExtResource("20_evqn8")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"food"])
+weight = 0.6
+properties = {
+"heal": 30,
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_fj3nj"]
+script = ExtResource("1_savkw")
+id = &"sword"
+display_name = "Longsword"
+description = "A balanced steel blade."
+icon = ExtResource("21_bnp1n")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"blade"])
+equip_slot = &"weapon"
+weight = 4.0
+unique = true
+properties = {
+"damage": 12,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_h06g4"]
+script = ExtResource("1_savkw")
+id = &"axe"
+display_name = "Woodcutter Axe"
+description = "Chops trees and enemies alike."
+icon = ExtResource("22_s2u53")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"tool"])
+equip_slot = &"weapon"
+weight = 4.5
+unique = true
+properties = {
+"damage": 14,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_qwq3t"]
+script = ExtResource("1_savkw")
+id = &"bow"
+display_name = "Longbow"
+description = "Needs arrows."
+icon = ExtResource("23_5q7ev")
+category = &"weapon"
+tags = Array[StringName]([&"ranged"])
+equip_slot = &"weapon"
+weight = 2.0
+unique = true
+properties = {
+"damage": 10,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_2rap7"]
+script = ExtResource("1_savkw")
+id = &"dagger"
+display_name = "Curved Dagger"
+description = "Quick and quiet."
+icon = ExtResource("24_dh6xe")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"blade"])
+equip_slot = &"weapon"
+weight = 1.0
+unique = true
+properties = {
+"damage": 7,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_hsoge"]
+script = ExtResource("1_savkw")
+id = &"staff"
+display_name = "Wizard Staff"
+description = "Channels spells."
+icon = ExtResource("25_snn7x")
+category = &"weapon"
+tags = Array[StringName]([&"magic"])
+equip_slot = &"weapon"
+weight = 2.5
+unique = true
+properties = {
+"damage": 9,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_lb5oc"]
+script = ExtResource("1_savkw")
+id = &"mace"
+display_name = "Spiked Mace"
+description = "Crushes armor."
+icon = ExtResource("26_ubst2")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"blunt"])
+equip_slot = &"weapon"
+weight = 5.0
+unique = true
+properties = {
+"damage": 13,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_noemj"]
+script = ExtResource("1_savkw")
+id = &"spear"
+display_name = "Spear"
+description = "Long reach."
+icon = ExtResource("27_y7rcx")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"polearm"])
+equip_slot = &"weapon"
+weight = 3.5
+unique = true
+properties = {
+"damage": 11,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_xcas0"]
+script = ExtResource("1_savkw")
+id = &"shield"
+display_name = "Round Shield"
+description = "Wood with a metal rim."
+icon = ExtResource("28_tgpd4")
+category = &"armor"
+tags = Array[StringName]([&"shield"])
+equip_slot = &"offhand"
+weight = 5.0
+unique = true
+properties = {
+"armor": 5,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_kitl6"]
+script = ExtResource("1_savkw")
+id = &"helmet"
+display_name = "Iron Helmet"
+description = "Basic head protection."
+icon = ExtResource("29_tfmm4")
+category = &"armor"
+equip_slot = &"head"
+weight = 2.5
+unique = true
+properties = {
+"armor": 3,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_iwrfc"]
+script = ExtResource("1_savkw")
+id = &"chest_armor"
+display_name = "Leather Armor"
+description = "Light body armor."
+icon = ExtResource("30_bqyu0")
+category = &"armor"
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 6,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_x2k5m"]
+script = ExtResource("1_savkw")
+id = &"gloves"
+display_name = "Leather Gloves"
+description = "Protect your hands."
+icon = ExtResource("31_sw0pm")
+category = &"armor"
+equip_slot = &"hands"
+weight = 0.8
+unique = true
+properties = {
+"armor": 2,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_top12"]
+script = ExtResource("1_savkw")
+id = &"boots"
+display_name = "Leather Boots"
+description = "Sturdy boots."
+icon = ExtResource("32_ke0qc")
+category = &"armor"
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 2,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_14m0v"]
+script = ExtResource("1_savkw")
+id = &"cloak"
+display_name = "Hooded Cloak"
+description = "Keeps the rain off."
+icon = ExtResource("33_3bd1d")
+category = &"armor"
+equip_slot = &"back"
+weight = 1.0
+unique = true
+properties = {
+"armor": 1,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_kbyp3"]
+script = ExtResource("1_savkw")
+id = &"belt"
+display_name = "Leather Belt"
+description = "Holds potions and pouches."
+icon = ExtResource("34_a7hyq")
+category = &"armor"
+equip_slot = &"waist"
+weight = 0.5
+unique = true
+properties = {
+"armor": 1,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_y3151"]
+script = ExtResource("1_savkw")
+id = &"ring"
+display_name = "Gold Ring"
+description = "A ring set with a small gem."
+icon = ExtResource("35_0j7q5")
+category = &"accessory"
+tags = Array[StringName]([&"jewelry"])
+equip_slot = &"ring"
+weight = 0.1
+unique = true
+properties = {
+"mana": 10,
+"rarity": "uncommon",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_a7bhw"]
+script = ExtResource("1_savkw")
+id = &"amulet"
+display_name = "Silver Amulet"
+description = "Wards off bad luck."
+icon = ExtResource("36_xbsn4")
+category = &"accessory"
+tags = Array[StringName]([&"jewelry"])
+equip_slot = &"amulet"
+weight = 0.2
+unique = true
+properties = {
+"armor": 1,
+"mana": 5,
+"rarity": "uncommon",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_u72vu"]
+script = ExtResource("1_savkw")
+id = &"key"
+display_name = "Old Key"
+description = "Opens something, somewhere."
+icon = ExtResource("37_jgau2")
+category = &"quest"
+tags = Array[StringName]([&"key"])
+weight = 0.1
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_icw28"]
+script = ExtResource("1_savkw")
+id = &"gold_coins"
+display_name = "Gold Coins"
+description = "The universal language."
+icon = ExtResource("38_61uqy")
+max_stack = 999
+category = &"currency"
+tags = Array[StringName]([&"currency"])
+weight = 0.01
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 1
+}
+
+[sub_resource type="Resource" id="Resource_c7oiq"]
+script = ExtResource("1_savkw")
+id = &"map"
+display_name = "Treasure Map"
+description = "X marks the spot."
+icon = ExtResource("39_wq3ua")
+category = &"quest"
+tags = Array[StringName]([&"paper"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_kdwk6"]
+script = ExtResource("1_savkw")
+id = &"scroll"
+display_name = "Sealed Scroll"
+description = "A message sealed with wax."
+icon = ExtResource("40_bhwid")
+max_stack = 10
+category = &"quest"
+tags = Array[StringName]([&"paper"])
+weight = 0.1
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_6vol1"]
+script = ExtResource("1_savkw")
+id = &"ruby"
+display_name = "Ruby"
+description = "A cut red gem."
+icon = ExtResource("41_ru7d3")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_c73lu"]
+script = ExtResource("1_savkw")
+id = &"sapphire"
+display_name = "Sapphire"
+description = "A cut blue gem."
+icon = ExtResource("42_mbdrf")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_wp8ji"]
+script = ExtResource("1_savkw")
+id = &"arrows"
+display_name = "Arrows"
+description = "Ammunition for bows."
+icon = ExtResource("43_4ln5n")
+max_stack = 99
+category = &"ammo"
+tags = Array[StringName]([&"ammo"])
+weight = 0.05
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_crpfm"]
+script = ExtResource("1_savkw")
+id = &"torch"
+display_name = "Torch"
+description = "Lights the way."
+icon = ExtResource("44_ge01u")
+max_stack = 10
+category = &"tool"
+tags = Array[StringName]([&"light"])
+weight = 0.5
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_fituu"]
+script = ExtResource("1_savkw")
+id = &"oak_log"
+display_name = "Oak Log"
+description = "Tier 1 wood."
+icon = ExtResource("45_xtbui")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"log"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_fbw7f"]
+script = ExtResource("1_savkw")
+id = &"pine_log"
+display_name = "Pine Log"
+description = "Tier 2 wood."
+icon = ExtResource("46_4cuw0")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"log"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_gp4cb"]
+script = ExtResource("1_savkw")
+id = &"birch_log"
+display_name = "Birch Log"
+description = "Tier 3 wood."
+icon = ExtResource("47_6ry76")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"log"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_0ccti"]
+script = ExtResource("1_savkw")
+id = &"ebony_log"
+display_name = "Ebony Log"
+description = "Tier 4 wood."
+icon = ExtResource("48_t7lll")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"log"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_fp5d6"]
+script = ExtResource("1_savkw")
+id = &"ancient_log"
+display_name = "Ancient Log"
+description = "Tier 5 wood."
+icon = ExtResource("49_355rf")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"log"])
+weight = 2.0
+properties = {
+"rarity": "rare",
+"tier": 5,
+"value": 125
+}
+
+[sub_resource type="Resource" id="Resource_4gmp6"]
+script = ExtResource("1_savkw")
+id = &"oak_planks"
+display_name = "Oak Planks"
+description = "Planks cut from oak wood."
+icon = ExtResource("50_77lba")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"planks"])
+weight = 1.5
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_qa474"]
+script = ExtResource("1_savkw")
+id = &"pine_planks"
+display_name = "Pine Planks"
+description = "Planks cut from pine wood."
+icon = ExtResource("51_g7m41")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"planks"])
+weight = 1.5
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_fbgd6"]
+script = ExtResource("1_savkw")
+id = &"birch_planks"
+display_name = "Birch Planks"
+description = "Planks cut from birch wood."
+icon = ExtResource("52_apju2")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"planks"])
+weight = 1.5
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_2vk70"]
+script = ExtResource("1_savkw")
+id = &"ebony_planks"
+display_name = "Ebony Planks"
+description = "Planks cut from ebony wood."
+icon = ExtResource("53_6opgf")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"planks"])
+weight = 1.5
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_n4egr"]
+script = ExtResource("1_savkw")
+id = &"ancient_planks"
+display_name = "Ancient Planks"
+description = "Planks cut from ancient wood."
+icon = ExtResource("54_tqpqo")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"wood", &"planks"])
+weight = 1.5
+properties = {
+"rarity": "rare",
+"tier": 5,
+"value": 125
+}
+
+[sub_resource type="Resource" id="Resource_hrujb"]
+script = ExtResource("1_savkw")
+id = &"granite"
+display_name = "Granite"
+description = "Hard speckled stone."
+icon = ExtResource("55_1fktr")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"stone"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_aevqp"]
+script = ExtResource("1_savkw")
+id = &"marble"
+display_name = "Marble"
+description = "Polished white stone."
+icon = ExtResource("56_y2ucn")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"stone"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_o8is6"]
+script = ExtResource("1_savkw")
+id = &"obsidian"
+display_name = "Obsidian"
+description = "Glass-sharp volcanic stone."
+icon = ExtResource("57_7ukel")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"stone"])
+weight = 2.0
+properties = {
+"rarity": "rare",
+"tier": 5,
+"value": 125
+}
+
+[sub_resource type="Resource" id="Resource_yku2m"]
+script = ExtResource("1_savkw")
+id = &"clay"
+display_name = "Clay"
+description = "Shape it, fire it."
+icon = ExtResource("58_wm21w")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"mineral"])
+weight = 1.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_nen04"]
+script = ExtResource("1_savkw")
+id = &"sand"
+display_name = "Sand"
+description = "Melts into glass."
+icon = ExtResource("59_x3h3s")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"mineral"])
+weight = 1.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_oukuw"]
+script = ExtResource("1_savkw")
+id = &"coal"
+display_name = "Coal"
+description = "Fuel for furnaces."
+icon = ExtResource("60_1gnnx")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"mineral"])
+weight = 1.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_0lcnl"]
+script = ExtResource("1_savkw")
+id = &"copper_ore"
+display_name = "Copper Ore"
+description = "Rock veined with copper."
+icon = ExtResource("61_2h3db")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_hfa2s"]
+script = ExtResource("1_savkw")
+id = &"tin_ore"
+display_name = "Tin Ore"
+description = "Rock veined with tin."
+icon = ExtResource("62_6wcsd")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_b0mxy"]
+script = ExtResource("1_savkw")
+id = &"silver_ore"
+display_name = "Silver Ore"
+description = "Rock veined with silver."
+icon = ExtResource("63_j0isr")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_moq1l"]
+script = ExtResource("1_savkw")
+id = &"gold_ore"
+display_name = "Gold Ore"
+description = "Rock veined with gold."
+icon = ExtResource("64_1y7pb")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_sv763"]
+script = ExtResource("1_savkw")
+id = &"mithril_ore"
+display_name = "Mithril Ore"
+description = "Rock veined with mithril."
+icon = ExtResource("65_vdw1i")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "epic",
+"tier": 6,
+"value": 180
+}
+
+[sub_resource type="Resource" id="Resource_v8bus"]
+script = ExtResource("1_savkw")
+id = &"adamantite_ore"
+display_name = "Adamantite Ore"
+description = "Rock veined with adamantite."
+icon = ExtResource("66_dg24s")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ore", &"metal"])
+weight = 3.0
+properties = {
+"rarity": "legendary",
+"tier": 7,
+"value": 245
+}
+
+[sub_resource type="Resource" id="Resource_nek6n"]
+script = ExtResource("1_savkw")
+id = &"copper_ingot"
+display_name = "Copper Ingot"
+description = "A bar of copper."
+icon = ExtResource("67_jt8it")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_pcukc"]
+script = ExtResource("1_savkw")
+id = &"tin_ingot"
+display_name = "Tin Ingot"
+description = "A bar of tin."
+icon = ExtResource("68_gcyfs")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_b70wa"]
+script = ExtResource("1_savkw")
+id = &"bronze_ingot"
+display_name = "Bronze Ingot"
+description = "A bar of bronze."
+icon = ExtResource("69_coeq1")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_kenhx"]
+script = ExtResource("1_savkw")
+id = &"steel_ingot"
+display_name = "Steel Ingot"
+description = "A bar of steel."
+icon = ExtResource("70_0iabq")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_c0q16"]
+script = ExtResource("1_savkw")
+id = &"silver_ingot"
+display_name = "Silver Ingot"
+description = "A bar of silver."
+icon = ExtResource("71_n4158")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_4r86s"]
+script = ExtResource("1_savkw")
+id = &"gold_ingot"
+display_name = "Gold Ingot"
+description = "A bar of gold."
+icon = ExtResource("72_r6r5x")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_lb2sd"]
+script = ExtResource("1_savkw")
+id = &"mithril_ingot"
+display_name = "Mithril Ingot"
+description = "A bar of mithril."
+icon = ExtResource("73_s1kxp")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "epic",
+"tier": 6,
+"value": 180
+}
+
+[sub_resource type="Resource" id="Resource_s1oq3"]
+script = ExtResource("1_savkw")
+id = &"adamantite_ingot"
+display_name = "Adamantite Ingot"
+description = "A bar of adamantite."
+icon = ExtResource("74_65ltx")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"ingot", &"metal"])
+weight = 2.0
+properties = {
+"rarity": "legendary",
+"tier": 7,
+"value": 245
+}
+
+[sub_resource type="Resource" id="Resource_52y5b"]
+script = ExtResource("1_savkw")
+id = &"iron_nugget"
+display_name = "Iron Nugget"
+description = "A small lump of iron."
+icon = ExtResource("75_xkpct")
+max_stack = 99
+category = &"resource"
+tags = Array[StringName]([&"metal"])
+weight = 0.2
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_pms28"]
+script = ExtResource("1_savkw")
+id = &"gold_nugget"
+display_name = "Gold Nugget"
+description = "A small lump of gold."
+icon = ExtResource("76_321l5")
+max_stack = 99
+category = &"resource"
+tags = Array[StringName]([&"metal"])
+weight = 0.2
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_8vb3o"]
+script = ExtResource("1_savkw")
+id = &"plant_fiber"
+display_name = "Plant Fiber"
+description = "Twist it into rope."
+icon = ExtResource("77_wl1nu")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"fabric"])
+weight = 0.1
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_dtu6x"]
+script = ExtResource("1_savkw")
+id = &"linen_thread"
+display_name = "Linen Thread"
+description = "For sewing and bowstrings."
+icon = ExtResource("78_knn0n")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"fabric"])
+weight = 0.1
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_48lsm"]
+script = ExtResource("1_savkw")
+id = &"wool"
+display_name = "Wool"
+description = "Soft and warm."
+icon = ExtResource("79_f7wak")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"fabric"])
+weight = 0.3
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_be715"]
+script = ExtResource("1_savkw")
+id = &"silk"
+display_name = "Silk"
+description = "Fine and rare cloth."
+icon = ExtResource("80_3v7hf")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"fabric"])
+weight = 0.2
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_rco88"]
+script = ExtResource("1_savkw")
+id = &"rawhide"
+display_name = "Rawhide"
+description = "Untreated animal skin."
+icon = ExtResource("81_ba3lh")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"leather"])
+weight = 1.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_avlc7"]
+script = ExtResource("1_savkw")
+id = &"hardened_leather"
+display_name = "Hardened Leather"
+description = "Boiled and riveted leather."
+icon = ExtResource("82_twq3r")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"leather"])
+weight = 1.2
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_2b14b"]
+script = ExtResource("1_savkw")
+id = &"scaled_hide"
+display_name = "Scaled Hide"
+description = "Tough reptile scales."
+icon = ExtResource("83_jmwth")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"leather"])
+weight = 1.5
+properties = {
+"rarity": "rare",
+"tier": 5,
+"value": 125
+}
+
+[sub_resource type="Resource" id="Resource_lmnw2"]
+script = ExtResource("1_savkw")
+id = &"bone"
+display_name = "Bone"
+description = "Useful for tools and charms."
+icon = ExtResource("84_o8m03")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"bone"])
+weight = 0.5
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_3hhdx"]
+script = ExtResource("1_savkw")
+id = &"feather"
+display_name = "Feather"
+description = "Fletching for arrows."
+icon = ExtResource("85_4jfnm")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"fletching"])
+weight = 0.01
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_sybjy"]
+script = ExtResource("1_savkw")
+id = &"resin"
+display_name = "Resin"
+description = "Sticky amber sap."
+icon = ExtResource("86_jfq13")
+max_stack = 50
+category = &"resource"
+tags = Array[StringName]([&"alchemy"])
+weight = 0.2
+properties = {
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_mikuh"]
+script = ExtResource("1_savkw")
+id = &"rough_amethyst"
+display_name = "Rough Amethyst"
+description = "An uncut purple crystal."
+icon = ExtResource("87_7qkvj")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.3
+properties = {
+"rarity": "uncommon",
+"tier": 3,
+"value": 45
+}
+
+[sub_resource type="Resource" id="Resource_823lf"]
+script = ExtResource("1_savkw")
+id = &"amethyst"
+display_name = "Amethyst"
+description = "A cut purple gem."
+icon = ExtResource("88_ce6q5")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_7rkh2"]
+script = ExtResource("1_savkw")
+id = &"emerald"
+display_name = "Emerald"
+description = "A cut green gem."
+icon = ExtResource("89_75vkf")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "rare",
+"tier": 5,
+"value": 125
+}
+
+[sub_resource type="Resource" id="Resource_cifxc"]
+script = ExtResource("1_savkw")
+id = &"topaz"
+display_name = "Topaz"
+description = "A cut yellow gem."
+icon = ExtResource("90_mlss5")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_fmfnf"]
+script = ExtResource("1_savkw")
+id = &"diamond"
+display_name = "Diamond"
+description = "Hardest and brightest of gems."
+icon = ExtResource("91_7ubul")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "legendary",
+"tier": 7,
+"value": 245
+}
+
+[sub_resource type="Resource" id="Resource_ldkwc"]
+script = ExtResource("1_savkw")
+id = &"magic_essence"
+display_name = "Magic Essence"
+description = "Raw magic trapped in glass."
+icon = ExtResource("92_e5wsw")
+max_stack = 20
+category = &"resource"
+tags = Array[StringName]([&"magic", &"alchemy"])
+weight = 0.2
+properties = {
+"rarity": "epic",
+"tier": 6,
+"value": 180
+}
+
+[sub_resource type="Resource" id="Resource_ytrb3"]
+script = ExtResource("1_savkw")
+id = &"cloth_helmet"
+display_name = "Mage Hood"
+description = "Part of the Mage set (tier 1)."
+icon = ExtResource("93_mu72a")
+category = &"armor"
+tags = Array[StringName]([&"set", &"cloth"])
+equip_slot = &"head"
+weight = 0.8
+unique = true
+properties = {
+"armor": 2,
+"mana": 10,
+"rarity": "common",
+"set": "cloth",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_pwjc7"]
+script = ExtResource("1_savkw")
+id = &"cloth_chest"
+display_name = "Mage Robe"
+description = "Part of the Mage set (tier 1)."
+icon = ExtResource("94_fy8eb")
+category = &"armor"
+tags = Array[StringName]([&"set", &"cloth"])
+equip_slot = &"body"
+weight = 2.4
+unique = true
+properties = {
+"armor": 4,
+"mana": 10,
+"rarity": "common",
+"set": "cloth",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_uoxdh"]
+script = ExtResource("1_savkw")
+id = &"cloth_gloves"
+display_name = "Mage Gloves"
+description = "Part of the Mage set (tier 1)."
+icon = ExtResource("95_8dqpk")
+category = &"armor"
+tags = Array[StringName]([&"set", &"cloth"])
+equip_slot = &"hands"
+weight = 0.4
+unique = true
+properties = {
+"armor": 1,
+"mana": 10,
+"rarity": "common",
+"set": "cloth",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_5dfwf"]
+script = ExtResource("1_savkw")
+id = &"cloth_boots"
+display_name = "Mage Shoes"
+description = "Part of the Mage set (tier 1)."
+icon = ExtResource("96_568gp")
+category = &"armor"
+tags = Array[StringName]([&"set", &"cloth"])
+equip_slot = &"feet"
+weight = 0.6
+unique = true
+properties = {
+"armor": 1,
+"mana": 10,
+"rarity": "common",
+"set": "cloth",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_au3pu"]
+script = ExtResource("1_savkw")
+id = &"bronze_helmet"
+display_name = "Bronze Helmet"
+description = "Part of the Bronze set (tier 2)."
+icon = ExtResource("97_mcvlm")
+category = &"armor"
+tags = Array[StringName]([&"set", &"bronze"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 4,
+"rarity": "common",
+"set": "bronze",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_11o4h"]
+script = ExtResource("1_savkw")
+id = &"bronze_chest"
+display_name = "Bronze Chestplate"
+description = "Part of the Bronze set (tier 2)."
+icon = ExtResource("98_oee05")
+category = &"armor"
+tags = Array[StringName]([&"set", &"bronze"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 8,
+"rarity": "common",
+"set": "bronze",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_u6vw3"]
+script = ExtResource("1_savkw")
+id = &"bronze_gloves"
+display_name = "Bronze Gauntlets"
+description = "Part of the Bronze set (tier 2)."
+icon = ExtResource("99_gt08k")
+category = &"armor"
+tags = Array[StringName]([&"set", &"bronze"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 2,
+"rarity": "common",
+"set": "bronze",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_6vsek"]
+script = ExtResource("1_savkw")
+id = &"bronze_boots"
+display_name = "Bronze Boots"
+description = "Part of the Bronze set (tier 2)."
+icon = ExtResource("100_equoi")
+category = &"armor"
+tags = Array[StringName]([&"set", &"bronze"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 2,
+"rarity": "common",
+"set": "bronze",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_ft0aq"]
+script = ExtResource("1_savkw")
+id = &"iron_helmet"
+display_name = "Iron Helmet"
+description = "Part of the Iron set (tier 3)."
+icon = ExtResource("101_4vddt")
+category = &"armor"
+tags = Array[StringName]([&"set", &"iron"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 6,
+"rarity": "uncommon",
+"set": "iron",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_rm1ks"]
+script = ExtResource("1_savkw")
+id = &"iron_chest"
+display_name = "Iron Chestplate"
+description = "Part of the Iron set (tier 3)."
+icon = ExtResource("102_hrjnk")
+category = &"armor"
+tags = Array[StringName]([&"set", &"iron"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 12,
+"rarity": "uncommon",
+"set": "iron",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_m6vmt"]
+script = ExtResource("1_savkw")
+id = &"iron_gloves"
+display_name = "Iron Gauntlets"
+description = "Part of the Iron set (tier 3)."
+icon = ExtResource("103_tuh0t")
+category = &"armor"
+tags = Array[StringName]([&"set", &"iron"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 3,
+"rarity": "uncommon",
+"set": "iron",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_4o0oy"]
+script = ExtResource("1_savkw")
+id = &"iron_boots"
+display_name = "Iron Boots"
+description = "Part of the Iron set (tier 3)."
+icon = ExtResource("104_ubspb")
+category = &"armor"
+tags = Array[StringName]([&"set", &"iron"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 3,
+"rarity": "uncommon",
+"set": "iron",
+"tier": 3,
+"value": 55
+}
+
+[sub_resource type="Resource" id="Resource_p3fvw"]
+script = ExtResource("1_savkw")
+id = &"steel_helmet"
+display_name = "Steel Helmet"
+description = "Part of the Steel set (tier 4)."
+icon = ExtResource("105_304k2")
+category = &"armor"
+tags = Array[StringName]([&"set", &"steel"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 8,
+"rarity": "uncommon",
+"set": "steel",
+"tier": 4,
+"value": 90
+}
+
+[sub_resource type="Resource" id="Resource_1fouq"]
+script = ExtResource("1_savkw")
+id = &"steel_chest"
+display_name = "Steel Chestplate"
+description = "Part of the Steel set (tier 4)."
+icon = ExtResource("106_82vqm")
+category = &"armor"
+tags = Array[StringName]([&"set", &"steel"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 16,
+"rarity": "uncommon",
+"set": "steel",
+"tier": 4,
+"value": 90
+}
+
+[sub_resource type="Resource" id="Resource_myolt"]
+script = ExtResource("1_savkw")
+id = &"steel_gloves"
+display_name = "Steel Gauntlets"
+description = "Part of the Steel set (tier 4)."
+icon = ExtResource("107_y3mnx")
+category = &"armor"
+tags = Array[StringName]([&"set", &"steel"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 4,
+"rarity": "uncommon",
+"set": "steel",
+"tier": 4,
+"value": 90
+}
+
+[sub_resource type="Resource" id="Resource_062p4"]
+script = ExtResource("1_savkw")
+id = &"steel_boots"
+display_name = "Steel Boots"
+description = "Part of the Steel set (tier 4)."
+icon = ExtResource("108_reao7")
+category = &"armor"
+tags = Array[StringName]([&"set", &"steel"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 4,
+"rarity": "uncommon",
+"set": "steel",
+"tier": 4,
+"value": 90
+}
+
+[sub_resource type="Resource" id="Resource_vplm6"]
+script = ExtResource("1_savkw")
+id = &"gold_helmet"
+display_name = "Royal Gold Helmet"
+description = "Part of the Royal Gold set (tier 5)."
+icon = ExtResource("109_wjfub")
+category = &"armor"
+tags = Array[StringName]([&"set", &"gold"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 10,
+"mana": 5,
+"rarity": "rare",
+"set": "gold",
+"tier": 5,
+"value": 135
+}
+
+[sub_resource type="Resource" id="Resource_b0d3o"]
+script = ExtResource("1_savkw")
+id = &"gold_chest"
+display_name = "Royal Gold Chestplate"
+description = "Part of the Royal Gold set (tier 5)."
+icon = ExtResource("110_2ob0w")
+category = &"armor"
+tags = Array[StringName]([&"set", &"gold"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 20,
+"mana": 5,
+"rarity": "rare",
+"set": "gold",
+"tier": 5,
+"value": 135
+}
+
+[sub_resource type="Resource" id="Resource_qqudk"]
+script = ExtResource("1_savkw")
+id = &"gold_gloves"
+display_name = "Royal Gold Gauntlets"
+description = "Part of the Royal Gold set (tier 5)."
+icon = ExtResource("111_0yq5n")
+category = &"armor"
+tags = Array[StringName]([&"set", &"gold"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 5,
+"mana": 5,
+"rarity": "rare",
+"set": "gold",
+"tier": 5,
+"value": 135
+}
+
+[sub_resource type="Resource" id="Resource_q62fy"]
+script = ExtResource("1_savkw")
+id = &"gold_boots"
+display_name = "Royal Gold Boots"
+description = "Part of the Royal Gold set (tier 5)."
+icon = ExtResource("112_5qs1p")
+category = &"armor"
+tags = Array[StringName]([&"set", &"gold"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 5,
+"mana": 5,
+"rarity": "rare",
+"set": "gold",
+"tier": 5,
+"value": 135
+}
+
+[sub_resource type="Resource" id="Resource_ds075"]
+script = ExtResource("1_savkw")
+id = &"mithril_helmet"
+display_name = "Mithril Helmet"
+description = "Part of the Mithril set (tier 6)."
+icon = ExtResource("113_c81df")
+category = &"armor"
+tags = Array[StringName]([&"set", &"mithril"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 12,
+"mana": 10,
+"rarity": "epic",
+"set": "mithril",
+"tier": 6,
+"value": 190
+}
+
+[sub_resource type="Resource" id="Resource_5debl"]
+script = ExtResource("1_savkw")
+id = &"mithril_chest"
+display_name = "Mithril Chestplate"
+description = "Part of the Mithril set (tier 6)."
+icon = ExtResource("114_mmvxi")
+category = &"armor"
+tags = Array[StringName]([&"set", &"mithril"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 24,
+"mana": 10,
+"rarity": "epic",
+"set": "mithril",
+"tier": 6,
+"value": 190
+}
+
+[sub_resource type="Resource" id="Resource_uk43m"]
+script = ExtResource("1_savkw")
+id = &"mithril_gloves"
+display_name = "Mithril Gauntlets"
+description = "Part of the Mithril set (tier 6)."
+icon = ExtResource("115_qhw3w")
+category = &"armor"
+tags = Array[StringName]([&"set", &"mithril"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 6,
+"mana": 10,
+"rarity": "epic",
+"set": "mithril",
+"tier": 6,
+"value": 190
+}
+
+[sub_resource type="Resource" id="Resource_1m2v3"]
+script = ExtResource("1_savkw")
+id = &"mithril_boots"
+display_name = "Mithril Boots"
+description = "Part of the Mithril set (tier 6)."
+icon = ExtResource("116_3o1rb")
+category = &"armor"
+tags = Array[StringName]([&"set", &"mithril"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 6,
+"mana": 10,
+"rarity": "epic",
+"set": "mithril",
+"tier": 6,
+"value": 190
+}
+
+[sub_resource type="Resource" id="Resource_3a2td"]
+script = ExtResource("1_savkw")
+id = &"adamantite_helmet"
+display_name = "Adamantite Helmet"
+description = "Part of the Adamantite set (tier 7)."
+icon = ExtResource("117_5stn4")
+category = &"armor"
+tags = Array[StringName]([&"set", &"adamantite"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 14,
+"rarity": "legendary",
+"set": "adamantite",
+"tier": 7,
+"value": 255
+}
+
+[sub_resource type="Resource" id="Resource_phs8v"]
+script = ExtResource("1_savkw")
+id = &"adamantite_chest"
+display_name = "Adamantite Chestplate"
+description = "Part of the Adamantite set (tier 7)."
+icon = ExtResource("118_bkovu")
+category = &"armor"
+tags = Array[StringName]([&"set", &"adamantite"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 28,
+"rarity": "legendary",
+"set": "adamantite",
+"tier": 7,
+"value": 255
+}
+
+[sub_resource type="Resource" id="Resource_tmosm"]
+script = ExtResource("1_savkw")
+id = &"adamantite_gloves"
+display_name = "Adamantite Gauntlets"
+description = "Part of the Adamantite set (tier 7)."
+icon = ExtResource("119_0fd4q")
+category = &"armor"
+tags = Array[StringName]([&"set", &"adamantite"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 7,
+"rarity": "legendary",
+"set": "adamantite",
+"tier": 7,
+"value": 255
+}
+
+[sub_resource type="Resource" id="Resource_ll80g"]
+script = ExtResource("1_savkw")
+id = &"adamantite_boots"
+display_name = "Adamantite Boots"
+description = "Part of the Adamantite set (tier 7)."
+icon = ExtResource("120_pcwtu")
+category = &"armor"
+tags = Array[StringName]([&"set", &"adamantite"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 7,
+"rarity": "legendary",
+"set": "adamantite",
+"tier": 7,
+"value": 255
+}
+
+[sub_resource type="Resource" id="Resource_yy8r4"]
+script = ExtResource("1_savkw")
+id = &"dragon_helmet"
+display_name = "Dragonscale Helmet"
+description = "Part of the Dragonscale set (tier 8)."
+icon = ExtResource("121_8a8mj")
+category = &"armor"
+tags = Array[StringName]([&"set", &"dragon"])
+equip_slot = &"head"
+weight = 2.0
+unique = true
+properties = {
+"armor": 16,
+"fire_resist": 25,
+"rarity": "legendary",
+"set": "dragon",
+"tier": 8,
+"value": 330
+}
+
+[sub_resource type="Resource" id="Resource_8a215"]
+script = ExtResource("1_savkw")
+id = &"dragon_chest"
+display_name = "Dragonscale Chestplate"
+description = "Part of the Dragonscale set (tier 8)."
+icon = ExtResource("122_anpb5")
+category = &"armor"
+tags = Array[StringName]([&"set", &"dragon"])
+equip_slot = &"body"
+weight = 6.0
+unique = true
+properties = {
+"armor": 32,
+"fire_resist": 25,
+"rarity": "legendary",
+"set": "dragon",
+"tier": 8,
+"value": 330
+}
+
+[sub_resource type="Resource" id="Resource_pdege"]
+script = ExtResource("1_savkw")
+id = &"dragon_gloves"
+display_name = "Dragonscale Gauntlets"
+description = "Part of the Dragonscale set (tier 8)."
+icon = ExtResource("123_hsobm")
+category = &"armor"
+tags = Array[StringName]([&"set", &"dragon"])
+equip_slot = &"hands"
+weight = 1.0
+unique = true
+properties = {
+"armor": 8,
+"fire_resist": 25,
+"rarity": "legendary",
+"set": "dragon",
+"tier": 8,
+"value": 330
+}
+
+[sub_resource type="Resource" id="Resource_50edp"]
+script = ExtResource("1_savkw")
+id = &"dragon_boots"
+display_name = "Dragonscale Boots"
+description = "Part of the Dragonscale set (tier 8)."
+icon = ExtResource("124_4sk7g")
+category = &"armor"
+tags = Array[StringName]([&"set", &"dragon"])
+equip_slot = &"feet"
+weight = 1.5
+unique = true
+properties = {
+"armor": 8,
+"fire_resist": 25,
+"rarity": "legendary",
+"set": "dragon",
+"tier": 8,
+"value": 330
+}
+
+[resource]
+script = ExtResource("125_cbakq")
+items = Array[ExtResource("1_savkw")]([SubResource("Resource_lpk4f"), SubResource("Resource_51a0j"), SubResource("Resource_kanet"), SubResource("Resource_2asvj"), SubResource("Resource_vg3bj"), SubResource("Resource_mjy2h"), SubResource("Resource_fkjyp"), SubResource("Resource_vdqww"), SubResource("Resource_6lh51"), SubResource("Resource_ysjry"), SubResource("Resource_k2wmg"), SubResource("Resource_plpn1"), SubResource("Resource_p8emo"), SubResource("Resource_7kgn7"), SubResource("Resource_1i4ge"), SubResource("Resource_b1yji"), SubResource("Resource_fj3nj"), SubResource("Resource_h06g4"), SubResource("Resource_qwq3t"), SubResource("Resource_2rap7"), SubResource("Resource_hsoge"), SubResource("Resource_lb5oc"), SubResource("Resource_noemj"), SubResource("Resource_xcas0"), SubResource("Resource_kitl6"), SubResource("Resource_iwrfc"), SubResource("Resource_x2k5m"), SubResource("Resource_top12"), SubResource("Resource_14m0v"), SubResource("Resource_kbyp3"), SubResource("Resource_y3151"), SubResource("Resource_a7bhw"), SubResource("Resource_u72vu"), SubResource("Resource_icw28"), SubResource("Resource_c7oiq"), SubResource("Resource_kdwk6"), SubResource("Resource_6vol1"), SubResource("Resource_c73lu"), SubResource("Resource_wp8ji"), SubResource("Resource_crpfm"), SubResource("Resource_fituu"), SubResource("Resource_fbw7f"), SubResource("Resource_gp4cb"), SubResource("Resource_0ccti"), SubResource("Resource_fp5d6"), SubResource("Resource_4gmp6"), SubResource("Resource_qa474"), SubResource("Resource_fbgd6"), SubResource("Resource_2vk70"), SubResource("Resource_n4egr"), SubResource("Resource_hrujb"), SubResource("Resource_aevqp"), SubResource("Resource_o8is6"), SubResource("Resource_yku2m"), SubResource("Resource_nen04"), SubResource("Resource_oukuw"), SubResource("Resource_0lcnl"), SubResource("Resource_hfa2s"), SubResource("Resource_b0mxy"), SubResource("Resource_moq1l"), SubResource("Resource_sv763"), SubResource("Resource_v8bus"), SubResource("Resource_nek6n"), SubResource("Resource_pcukc"), SubResource("Resource_b70wa"), SubResource("Resource_kenhx"), SubResource("Resource_c0q16"), SubResource("Resource_4r86s"), SubResource("Resource_lb2sd"), SubResource("Resource_s1oq3"), SubResource("Resource_52y5b"), SubResource("Resource_pms28"), SubResource("Resource_8vb3o"), SubResource("Resource_dtu6x"), SubResource("Resource_48lsm"), SubResource("Resource_be715"), SubResource("Resource_rco88"), SubResource("Resource_avlc7"), SubResource("Resource_2b14b"), SubResource("Resource_lmnw2"), SubResource("Resource_3hhdx"), SubResource("Resource_sybjy"), SubResource("Resource_mikuh"), SubResource("Resource_823lf"), SubResource("Resource_7rkh2"), SubResource("Resource_cifxc"), SubResource("Resource_fmfnf"), SubResource("Resource_ldkwc"), SubResource("Resource_ytrb3"), SubResource("Resource_pwjc7"), SubResource("Resource_uoxdh"), SubResource("Resource_5dfwf"), SubResource("Resource_au3pu"), SubResource("Resource_11o4h"), SubResource("Resource_u6vw3"), SubResource("Resource_6vsek"), SubResource("Resource_ft0aq"), SubResource("Resource_rm1ks"), SubResource("Resource_m6vmt"), SubResource("Resource_4o0oy"), SubResource("Resource_p3fvw"), SubResource("Resource_1fouq"), SubResource("Resource_myolt"), SubResource("Resource_062p4"), SubResource("Resource_vplm6"), SubResource("Resource_b0d3o"), SubResource("Resource_qqudk"), SubResource("Resource_q62fy"), SubResource("Resource_ds075"), SubResource("Resource_5debl"), SubResource("Resource_uk43m"), SubResource("Resource_1m2v3"), SubResource("Resource_3a2td"), SubResource("Resource_phs8v"), SubResource("Resource_tmosm"), SubResource("Resource_ll80g"), SubResource("Resource_yy8r4"), SubResource("Resource_8a215"), SubResource("Resource_pdege"), SubResource("Resource_50edp")])

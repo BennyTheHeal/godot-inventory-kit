@@ -1,0 +1,184 @@
+[gd_resource type="Resource" script_class="IKItemDatabase" format=3]
+
+[ext_resource type="Script" path="res://addons/inventory_kit/core/item_definition.gd" id="1_cvwvx"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/wood_log.png" id="2_4lo2g"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/stone.png" id="3_yeayi"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/health_potion.png" id="4_qjxbm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/mana_potion.png" id="5_h5ltm"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/apple.png" id="6_5bqpe"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/sword.png" id="7_m3hhg"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/helmet.png" id="8_00hcj"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/gold_coins.png" id="9_i4nym"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/ruby.png" id="10_lj5cg"]
+[ext_resource type="Texture2D" path="res://addons/inventory_kit/art/lite/icons/arrows.png" id="11_v2ky4"]
+[ext_resource type="Script" path="res://addons/inventory_kit/core/item_database.gd" id="12_qw80d"]
+
+[sub_resource type="Resource" id="Resource_hkvxl"]
+script = ExtResource("1_cvwvx")
+id = &"wood_log"
+display_name = "Wood Log"
+description = "A sturdy log. The most basic building material."
+icon = ExtResource("2_4lo2g")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"wood"])
+weight = 2.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_37f7v"]
+script = ExtResource("1_cvwvx")
+id = &"stone"
+display_name = "Stone"
+description = "A rough grey stone, good for tools and walls."
+icon = ExtResource("3_yeayi")
+max_stack = 50
+category = &"material"
+tags = Array[StringName]([&"stone"])
+weight = 3.0
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_f3pjx"]
+script = ExtResource("1_cvwvx")
+id = &"health_potion"
+display_name = "Health Potion"
+description = "Restores 50 health."
+icon = ExtResource("4_qjxbm")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.5
+properties = {
+"heal": 50,
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_5ikwd"]
+script = ExtResource("1_cvwvx")
+id = &"mana_potion"
+display_name = "Mana Potion"
+description = "Restores 30 mana."
+icon = ExtResource("5_h5ltm")
+max_stack = 10
+category = &"consumable"
+tags = Array[StringName]([&"potion"])
+weight = 0.5
+properties = {
+"mana": 30,
+"rarity": "common",
+"tier": 2,
+"value": 20
+}
+
+[sub_resource type="Resource" id="Resource_1fbxx"]
+script = ExtResource("1_cvwvx")
+id = &"apple"
+display_name = "Apple"
+description = "Crisp and sweet. Restores 8 health."
+icon = ExtResource("6_5bqpe")
+max_stack = 20
+category = &"consumable"
+tags = Array[StringName]([&"food"])
+weight = 0.2
+properties = {
+"heal": 8,
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[sub_resource type="Resource" id="Resource_e0ndn"]
+script = ExtResource("1_cvwvx")
+id = &"sword"
+display_name = "Longsword"
+description = "A balanced steel blade."
+icon = ExtResource("7_m3hhg")
+category = &"weapon"
+tags = Array[StringName]([&"melee", &"blade"])
+equip_slot = &"weapon"
+weight = 4.0
+unique = true
+properties = {
+"damage": 12,
+"rarity": "common",
+"tier": 2,
+"value": 30
+}
+
+[sub_resource type="Resource" id="Resource_8folr"]
+script = ExtResource("1_cvwvx")
+id = &"helmet"
+display_name = "Iron Helmet"
+description = "Basic head protection."
+icon = ExtResource("8_00hcj")
+category = &"armor"
+equip_slot = &"head"
+weight = 2.5
+unique = true
+properties = {
+"armor": 3,
+"rarity": "common",
+"tier": 1,
+"value": 15
+}
+
+[sub_resource type="Resource" id="Resource_gb5q6"]
+script = ExtResource("1_cvwvx")
+id = &"gold_coins"
+display_name = "Gold Coins"
+description = "The universal language."
+icon = ExtResource("9_i4nym")
+max_stack = 999
+category = &"currency"
+tags = Array[StringName]([&"currency"])
+weight = 0.01
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 1
+}
+
+[sub_resource type="Resource" id="Resource_4cn4n"]
+script = ExtResource("1_cvwvx")
+id = &"ruby"
+display_name = "Ruby"
+description = "A cut red gem."
+icon = ExtResource("10_lj5cg")
+max_stack = 20
+category = &"gem"
+tags = Array[StringName]([&"gem"])
+weight = 0.1
+properties = {
+"rarity": "uncommon",
+"tier": 4,
+"value": 80
+}
+
+[sub_resource type="Resource" id="Resource_irsus"]
+script = ExtResource("1_cvwvx")
+id = &"arrows"
+display_name = "Arrows"
+description = "Ammunition for bows."
+icon = ExtResource("11_v2ky4")
+max_stack = 99
+category = &"ammo"
+tags = Array[StringName]([&"ammo"])
+weight = 0.05
+properties = {
+"rarity": "common",
+"tier": 1,
+"value": 5
+}
+
+[resource]
+script = ExtResource("12_qw80d")
+items = Array[ExtResource("1_cvwvx")]([SubResource("Resource_hkvxl"), SubResource("Resource_37f7v"), SubResource("Resource_f3pjx"), SubResource("Resource_5ikwd"), SubResource("Resource_1fbxx"), SubResource("Resource_e0ndn"), SubResource("Resource_8folr"), SubResource("Resource_gb5q6"), SubResource("Resource_4cn4n"), SubResource("Resource_irsus")])

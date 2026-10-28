@@ -1,0 +1,12 @@
+Inventory Kit - art in this repository (Asset Library edition)
+
+The images in addons/inventory_kit/art/ are PLACEHOLDERS: coloured shapes with the item
+initials, drawn by a script, same names and sizes as the real art. They are under the MIT
+license, like the code (see LICENSE.txt), and the item databases, skins and themes work
+with them unchanged.
+
+The hand-made art (120 items in 4 art directions: painted, realistic, cartoon, flat, with
+matching UI frames) is free, pay what you want from $0, on the official page:
+https://banc-essai.site-testeurs.workers.dev/inventory-kit/
+Drop its addons/inventory_kit/art/ folder over this one: same file names, nothing to rewire.
+That art has its own license (free to use in your games, not to be re-uploaded on its own).

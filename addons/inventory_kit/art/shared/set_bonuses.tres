@@ -1,0 +1,149 @@
+[gd_resource type="Resource" script_class="IKSetBonusList" format=3]
+
+[ext_resource type="Script" path="res://addons/inventory_kit/pro/sets/set_bonus.gd" id="1_pcwnr"]
+[ext_resource type="Script" path="res://addons/inventory_kit/pro/sets/set_bonus_list.gd" id="2_2qaok"]
+
+[sub_resource type="Resource" id="Resource_5o8jx"]
+script = ExtResource("1_pcwnr")
+set_id = &"cloth"
+display_name = "Mage set"
+properties = {
+"mana": 15
+}
+
+[sub_resource type="Resource" id="Resource_m52fv"]
+script = ExtResource("1_pcwnr")
+set_id = &"cloth"
+display_name = "Mage set"
+pieces_required = 4
+properties = {
+"mana": 40
+}
+
+[sub_resource type="Resource" id="Resource_08ksj"]
+script = ExtResource("1_pcwnr")
+set_id = &"bronze"
+display_name = "Bronze set"
+properties = {
+"armor": 4
+}
+
+[sub_resource type="Resource" id="Resource_epk52"]
+script = ExtResource("1_pcwnr")
+set_id = &"bronze"
+display_name = "Bronze set"
+pieces_required = 4
+properties = {
+"armor": 6
+}
+
+[sub_resource type="Resource" id="Resource_rbtdv"]
+script = ExtResource("1_pcwnr")
+set_id = &"iron"
+display_name = "Iron set"
+properties = {
+"armor": 6
+}
+
+[sub_resource type="Resource" id="Resource_os47a"]
+script = ExtResource("1_pcwnr")
+set_id = &"iron"
+display_name = "Iron set"
+pieces_required = 4
+properties = {
+"armor": 10,
+"stamina": 10
+}
+
+[sub_resource type="Resource" id="Resource_e6lyy"]
+script = ExtResource("1_pcwnr")
+set_id = &"steel"
+display_name = "Steel set"
+properties = {
+"armor": 8
+}
+
+[sub_resource type="Resource" id="Resource_8xm5g"]
+script = ExtResource("1_pcwnr")
+set_id = &"steel"
+display_name = "Steel set"
+pieces_required = 4
+properties = {
+"armor": 14,
+"stamina": 20
+}
+
+[sub_resource type="Resource" id="Resource_fbpmk"]
+script = ExtResource("1_pcwnr")
+set_id = &"gold"
+display_name = "Royal Gold set"
+properties = {
+"armor": 10
+}
+
+[sub_resource type="Resource" id="Resource_q03ri"]
+script = ExtResource("1_pcwnr")
+set_id = &"gold"
+display_name = "Royal Gold set"
+pieces_required = 4
+properties = {
+"armor": 16,
+"mana": 25
+}
+
+[sub_resource type="Resource" id="Resource_du8m6"]
+script = ExtResource("1_pcwnr")
+set_id = &"mithril"
+display_name = "Mithril set"
+properties = {
+"armor": 12
+}
+
+[sub_resource type="Resource" id="Resource_n3jhh"]
+script = ExtResource("1_pcwnr")
+set_id = &"mithril"
+display_name = "Mithril set"
+pieces_required = 4
+properties = {
+"armor": 20,
+"mana": 30
+}
+
+[sub_resource type="Resource" id="Resource_png7m"]
+script = ExtResource("1_pcwnr")
+set_id = &"adamantite"
+display_name = "Adamantite set"
+properties = {
+"armor": 14
+}
+
+[sub_resource type="Resource" id="Resource_tgqmq"]
+script = ExtResource("1_pcwnr")
+set_id = &"adamantite"
+display_name = "Adamantite set"
+pieces_required = 4
+properties = {
+"armor": 30
+}
+
+[sub_resource type="Resource" id="Resource_7difv"]
+script = ExtResource("1_pcwnr")
+set_id = &"dragon"
+display_name = "Dragonscale set"
+properties = {
+"armor": 16
+}
+
+[sub_resource type="Resource" id="Resource_lhvnw"]
+script = ExtResource("1_pcwnr")
+set_id = &"dragon"
+display_name = "Dragonscale set"
+pieces_required = 4
+properties = {
+"armor": 30,
+"fire_resist": 50
+}
+
+[resource]
+script = ExtResource("2_2qaok")
+bonuses = Array[ExtResource("1_pcwnr")]([SubResource("Resource_5o8jx"), SubResource("Resource_m52fv"), SubResource("Resource_08ksj"), SubResource("Resource_epk52"), SubResource("Resource_rbtdv"), SubResource("Resource_os47a"), SubResource("Resource_e6lyy"), SubResource("Resource_8xm5g"), SubResource("Resource_fbpmk"), SubResource("Resource_q03ri"), SubResource("Resource_du8m6"), SubResource("Resource_n3jhh"), SubResource("Resource_png7m"), SubResource("Resource_tgqmq"), SubResource("Resource_7difv"), SubResource("Resource_lhvnw")])
